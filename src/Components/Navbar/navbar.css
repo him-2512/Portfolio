@@ -20,6 +20,9 @@
   padding-block: 14px;
 }
 
+.darktheme .nav-link {
+  border-color: hsl(0, 0%, 20%);
+}
 .nav__icon,
 .nav-name {
   color: var(--title-color);

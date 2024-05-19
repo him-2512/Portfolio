@@ -7,7 +7,7 @@ function PortfolioItem({ img, title, details }) {
     const [modal, setModal] = useState(false);
 
 
-    const toogleModal = () => {
+    const toggleModal = () => {
         setModal(!modal);
     }
 
@@ -16,7 +16,7 @@ function PortfolioItem({ img, title, details }) {
             <div className="portfolio-item">
                 <img className='portfolio-img' src={img} alt="" />
 
-                <div className="portfolio-hover" onClick={toogleModal}>
+                <div className="portfolio-hover" onClick={toggleModal}>
                     <h3 className="portfolio-title">
                         {title}
                     </h3>
@@ -27,11 +27,11 @@ function PortfolioItem({ img, title, details }) {
                 {modal && (
                     <div className='portfolio-modal'>
                         <div className="portfolio-modal-content">
-                            <img className='modal-close' src={Close} alt="" />
+                            <img className='modal-close' src={Close} onClick={toggleModal} />
 
                             <h3 className="modal-title">{title}</h3>
 
-                            <ul className="modal-list-grid">
+                            <ul className="modal-list grid">
                                 {details.map(({ icon, title, desc }, index) => {
                                     return (
 

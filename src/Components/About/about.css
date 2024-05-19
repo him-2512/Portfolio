@@ -8,6 +8,9 @@
   margin-bottom: 32px;
 }
 
+#section-title {
+  margin-bottom: 30px;
+}
 .section-subtitle {
   font-size: var(--h3-font-size);
   font-weight: var(--weight-600);
@@ -27,7 +30,7 @@
 .seperator {
   border-top: 2.5px solid var(--border-color);
   max-width: 40%;
-  margin: 72px auto 56px;
+  margin: 72px auto 30px;
 }
 
 .subtitle-center {

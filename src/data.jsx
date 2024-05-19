@@ -93,7 +93,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Phone : ',
-    description: '+91-9759286222',
+    description: '+91 9759286222',
   },
 
   {
@@ -196,49 +196,69 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '85',
   },
 
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    title: 'CSS',
+    percentage: '85',
   },
 
   {
     id: 3,
-    title: 'Css',
+    title: 'JavaScript',
     percentage: '70',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'Bootstarp',
+    percentage: '70',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'ReactJS',
+    percentage: '0',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'DBMS',
+    percentage: '70',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'Java',
     percentage: '65',
   },
 
   {
     id: 8,
-    title: 'React',
+    title: 'DSA',
     percentage: '45',
+  },
+  {
+    id: 9,
+    title: 'mySql',
+    percentage: '50',
+  },
+  {
+    id: 10,
+    title: 'C++',
+    percentage: '70',
+  },
+  {
+    id: 11,
+    title: 'NodeJS',
+    percentage: '0',
+  },
+  {
+    id: 12,
+    title: 'mongoDB',
+    percentage: '0',
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Info from './Info'
-import Stats from './Stats'
+
 import { FaDownload } from 'react-icons/fa'
 import Resume from '../../assets/Himanshu.pdf'
 import Skills from './Skills'
@@ -9,7 +9,7 @@ function About() {
     return (
         <main className="section container">
             <section className="about">
-                <h2 className='section-title'>
+                <h2 className='section-title' id='section-title'>
                     About <span>Me</span>
                 </h2>
 
